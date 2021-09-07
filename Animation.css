@@ -17,3 +17,11 @@
 .ex-2-square:active {
     width: 300px
 }
+
+.ex-3-square {
+    transition: 5s;
+}
+
+.ex-3-square:hover {
+    border-radius: 50%;
+}
