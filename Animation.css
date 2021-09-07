@@ -80,10 +80,10 @@
 }
 
 .ex-10-icon {
-    animation: rotation 4s infinite;
+    animation: rotation1 4s infinite;
 }
 
-@keyframes rotation {
+@keyframes rotation1 {
     from {
         transform: rotate(0deg);
     }
@@ -93,10 +93,10 @@
 }
 
 .ex-11-icon:hover {
-    animation: rotation 5s;
+    animation: rotation2 5s;
 }
 
-@keyframes rotation {
+@keyframes rotation2 {
     from {
         transform: rotate(0deg);
     }
