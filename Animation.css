@@ -78,3 +78,29 @@
     border-radius: 25%;
     width: 300px;
 }
+
+.ex-10-icon {
+    animation: rotation 5s infinite;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.ex-11-icon:hover {
+    animation: rotation 5s;
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(240deg);
+    }
+}
