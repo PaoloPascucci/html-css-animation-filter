@@ -80,7 +80,7 @@
 }
 
 .ex-10-icon {
-    animation: rotation 5s infinite;
+    animation: rotation 4s infinite;
 }
 
 @keyframes rotation {
@@ -88,7 +88,7 @@
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(360deg);
+        transform: rotate(365deg);
     }
 }
 
@@ -134,5 +134,57 @@
     }
     100% {
         right: 20%;
+    }
+}
+
+.ex-13-top-white {
+    animation: moveallt 3s linear 1s infinite;
+}
+
+@keyframes moveallt {
+    0% {
+        left: 0%;
+    }
+    25% {
+        left: 70%;
+        top: -10px;
+    }
+    50% {
+        left: 75%;
+        top: 50px;
+    }
+    75% {
+        left: 0%;
+        top: 50px;
+    }
+    100% {
+        left: -10%;
+        top: 0;
+    }
+}
+
+.ex-13-bottom-white {
+    animation: moveallb 3s linear 1s infinite;
+}
+
+@keyframes moveallb {
+    0% {
+        right: 20%;
+    }
+    25% {
+        right: 70%;
+        bottom: -10px;
+    }
+    50% {
+        right: 75%;
+        bottom: 50px;
+    }
+    75% {
+        right: -10%;
+        bottom: 50px;
+    }
+    100% {
+        right: -10%;
+        bottom: 0px;
     }
 }
