@@ -39,13 +39,11 @@
 }
 
 .ex-5-square:hover {
-    width: 70px;
-    height: 70px;
+    transform: scale(1.5);
 }
 
 .ex-5-square:active {
-    width: 30px;
-    height: 30px;
+    transform: scale(0.5);
 }
 
 .ex-6-img:hover {
@@ -74,9 +72,9 @@
 }
 
 .ex-9-img:hover {
+    transform: scale(0.5);
     filter: opacity(0.3) grayscale();
     border-radius: 25%;
-    width: 300px;
 }
 
 .ex-10-icon {
@@ -88,7 +86,7 @@
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(365deg);
+        transform: rotate(360deg);
     }
 }
 
@@ -101,7 +99,7 @@
         transform: rotate(0deg);
     }
     to {
-        transform: rotate(240deg);
+        transform: rotate(270deg);
     }
 }
 
